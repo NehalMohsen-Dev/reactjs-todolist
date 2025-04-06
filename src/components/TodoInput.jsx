@@ -2,8 +2,10 @@ import React from 'react'
 
 export default function TodoInput() {
   return (
-    <div>
+    <header>
+      <input placeholder='Enter what to do ....' />
+      <button>+</button>
       
-    </div>
+    </header>
   )
 }
